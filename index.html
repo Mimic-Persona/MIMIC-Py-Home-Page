@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>MIMIC</title>
+  <link rel="icon" type="image/x-icon" href="static/images/mimic_icon.webp">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">MIMIC: Integrating Diverse Personality Traits for
+              Better Game Testing Using Large Language Model</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://byronchen12138.github.io/" target="_blank">Yifei Chen</a>,</span>
+                <span class="author-block">
+                  <a href="https://habchisarra.github.io/" target="_blank">Sarra Habchi</a>,</span>
+                  <span class="author-block">
+                    <a href="https://liliweise.github.io/" target="_blank">Lili Wei</a>
+                  </span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block">Accepted by the 40th IEEE/ACM International Conference on Automated Software Engineering<br>ASE 2025</span>
+<!--                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>-->
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+
+                       <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/2510.01635" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                          <span class="icon">
+                            <i class="fas fa-file-pdf"></i>
+                          </span>
+                          <span>Paper</span>
+                        </a>
+                      </span>
+
+                      <!-- YouTube Link -->
+                      <span class="link-block">
+                        <a href="https://youtu.be/RTDCSRU9bkU" target="_blank"
+                           class="external-link button is-normal is-rounded is-dark">
+                          <span class="icon">
+                            <i class="fas fa-video"></i>
+                          </span>
+                          <span>Presentation</span>
+                        </a>
+                      </span>
+
+<!--                    &lt;!&ndash; Supplementary PDF link &ndash;&gt;-->
+<!--                    <span class="link-block">-->
+<!--                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"-->
+<!--                      class="external-link button is-normal is-rounded is-dark">-->
+<!--                      <span class="icon">-->
+<!--                        <i class="fas fa-file-pdf"></i>-->
+<!--                      </span>-->
+<!--                      <span>Supplementary</span>-->
+<!--                    </a>-->
+<!--                  </span>-->
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/Mimic-Persona/MIMIC" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2510.01635" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--&lt;!&ndash; Teaser video&ndash;&gt;-->
+<!--<section class="hero teaser">-->
+<!--  <div class="container is-max-desktop">-->
+<!--    <div class="hero-body">-->
+<!--      <video poster="" id="tree" autoplay controls muted loop height="100%">-->
+<!--        &lt;!&ndash; Your video here &ndash;&gt;-->
+<!--        <source src="static/videos/banner_video.mp4"-->
+<!--        type="video/mp4">-->
+<!--      </video>-->
+<!--      <h2 class="subtitle has-text-centered">-->
+<!--        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus.-->
+<!--      </h2>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</section>-->
+<!--&lt;!&ndash; End teaser video &ndash;&gt;-->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Modern video games pose significant challenges for traditional automated testing algorithms,
+            yet intensive testing is crucial to ensure game quality.
+            To address these challenges, researchers designed gaming agents using Reinforcement Learning,
+            Imitation Learning, or Large Language Models.
+            However,
+            these agents often neglect the diverse strategies
+            employed by human players due to their different personalities,
+            resulting in repetitive solutions in similar situations.
+            Without mimicking varied gaming strategies,
+            these agents struggle to trigger diverse in-game interactions or uncover edge cases.
+          </p>
+          <p>
+            In this paper, we present MIMIC,
+            a novel framework that integrates diverse personality traits into gaming agents,
+            enabling them to adopt different gaming strategies for similar situations.
+            By mimicking different playstyles,
+            MIMIC can achieve higher test coverage and richer in-game interactions across different games.
+            It also outperforms state-of-the-art agents in Minecraft
+            by achieving a higher task completion rate and providing more diverse solutions.
+            These results highlight MIMIC's significant potential for effective game testing.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<!-- Overview -->
+<section class="section hero is-small">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <h2 class="title is-3">MIMIC</h2>
+        <div class="content has-text-justified">
+          <img src="static/images/FORMAL_MIMIC_Overview_Single_Column.png" alt="MIMIC Overview">
+          <p>
+            MIMIC consists of four components: the Planner, Action Summarizer, Action Executor, and Memory System.
+          </p>
+          <p>
+            The Planner is the core module,
+            generating action plans from predefined personality traits and past experiences.
+            These experiences are stored in the Memory System,
+            with the Action Summarizer analyzing execution results to produce summaries.
+            The Action Executor then translates the Planner’s output into in-game actions.
+            In each action iteration, the Planner produces a plan, the Executor executes it,
+            and the Summarizer records feedback as new memory to guide future planning.
+            The following sections detail each component.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Overview -->
+
+<!-- Motivating Example -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <h2 class="title is-3">Motivating Example</h2>
+        <div class="content has-text-justified">
+          <p>
+            The task, Obtain 1 diamond, is long-hailed as a significant challenge in the community, which is also the focus task of the NeurIPS MineRL Competition. It requires completing at least 13 sub-goals in sequence, each with multiple valid variants, making it a long-horizon task that typically takes humans over ten minutes to solve. Players must also handle dynamic requirements posed by the game, such as hunger or safety, further expanding the solution space.
+          </p>
+          <p>
+            Existing gaming agents are optimized for effective task completion, often resulting in homogeneous and repetitive behaviours.
+            For example, in our evaluation, we observed that ODYSSEY, a state-of-the-art LLM-based agent, consistently followed a single optimized path to obtain a diamond regardless of variations in environments and events triggered in different runs.
+            While these agents can achieve high task completion rates, their behaviours diverge from how human players play the game.
+            Unlike these agents, human players rarely pursue a task in a strictly optimized manner.
+            Instead, they exhibit adaptive and diverse behaviours in response to spontaneous in-game events, shaped by their personality traits.
+            For example, an aggressive player attempting to obtain a diamond may still combat with creatures to collect dropped items, even when such actions are not directly beneficial to the primary task.
+            As a result, the existing gaming agents fail to emulate the diverse and adaptive real-world player behaviours, limiting their ability to cover the wide range of unpredictable in-game scenarios and reducing their overall effectiveness for game testing.
+          </p>
+          <p>
+            This motivates us to propose MIMIC,
+            an LLM-based agent framework that integrates personality profiles into the core planning process.
+            Unlike existing agents that narrowly pursue optimal action sequences,
+            MIMIC leverages recent advances in LLMs capable of simulating consistent personality traits to model gameplay behaviours that more closely resemble those of real human players.
+            By conditioning its dynamic Planner on distinct personality prompts, MIMIC generates strategies that are task-oriented and driven by personality-specific tendencies.
+            This enables it to pursue goals while continuously responding to in-game events in a manner consistent with a player of that personality, leading to more diverse, realistic, and interaction-rich testing trajectories.
+          </p>
+          <p>
+            For example, in finishing the Obtain 1 Diamond task, our aggressive agent dedicated 21.52% of its actions to combat, frequently upgrading armour and engaging a variety of creatures.
+            In contrast, the cautious agent avoided combat entirely, prioritizing safety by crafting torches before mining. Meanwhile, the adrenaline-seeking agent actively crafted swords and explored high-risk areas to encounter enemies, reflecting a strong preference for challenge-oriented interactions.
+            These results demonstrate that by integrating personality into our gaming agent, MIMIC can generate meaningful actions in response to various environments according to the specified personality, driving exploration towards more diverse scenarios.
+          </p>
+          <p>
+            Furthermore, human decision-making is influenced not only by personality but also by experience and personal preferences.
+            To model this, we introduce a Memory System that records past actions and outcomes.
+            During planning, the system retrieves relevant and preferred memories, filtered by personality alignment, to help guide the agent's decisions in a consistent, human-like manner.
+          </p>
+          <p>
+            By combining personality-driven planning with memory-aware decision-making,
+            MIMIC delivers a novel testing framework that mimics the behavioural diversity of human players
+            and enables border exploration of in-game scenarios.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Overview -->
+
+<!--&lt;!&ndash; Overview &ndash;&gt;-->
+<!--<section class="section hero is-small is-light">-->
+<!--  <div class="container is-max-desktop">-->
+<!--    <div class="columns is-centered has-text-centered">-->
+<!--      <div class="column is-full">-->
+<!--        <h2 class="title is-3">Prompts for the Planner</h2>-->
+<!--        <div class="content has-text-justified">-->
+<!--          <p>-->
+<!--            The Planner is the core component of MIMIC that generates action plans according to the pre-defined personality trait as well as the past actions.-->
+<!--            The Memory System stores memories summarizing past actions and their outcomes, which are then provided to the Planner.-->
+<!--            These memories are generated by the Action Summarizer by analyzing actions and their execution outcomes retrieved from the games.-->
+<!--            MIMIC also contains an Action Executor that translates the generated plans into executions in the games.-->
+<!--            In summary, in one Action Iteration, the planner generates an action plan according to the integrated personality trait and the past actions and passes the plan to the Executor.-->
+<!--            The Executor executes the action plan in the game and collects the execution results.-->
+<!--            The execution results are then input to the Action Summarizer to generate the summaries that are then scored into the Memory System to guide the planning in future iterations.-->
+<!--            In the following, we discuss the detailed design of these four components.-->
+<!--          </p>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</section>-->
+<!--&lt;!&ndash; End Overview &ndash;&gt;-->
+
+
+<!--&lt;!&ndash; Image carousel &ndash;&gt;-->
+<!--<section class="hero is-small">-->
+<!--  <div class="hero-body">-->
+<!--    <div class="container">-->
+<!--      <div id="results-carousel" class="carousel results-carousel">-->
+<!--       <div class="item">-->
+<!--        &lt;!&ndash; Your image here &ndash;&gt;-->
+<!--        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>-->
+<!--        <h2 class="subtitle has-text-centered">-->
+<!--          First image description.-->
+<!--        </h2>-->
+<!--      </div>-->
+<!--      <div class="item">-->
+<!--        &lt;!&ndash; Your image here &ndash;&gt;-->
+<!--        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>-->
+<!--        <h2 class="subtitle has-text-centered">-->
+<!--          Second image description.-->
+<!--        </h2>-->
+<!--      </div>-->
+<!--      <div class="item">-->
+<!--        &lt;!&ndash; Your image here &ndash;&gt;-->
+<!--        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>-->
+<!--        <h2 class="subtitle has-text-centered">-->
+<!--         Third image description.-->
+<!--       </h2>-->
+<!--     </div>-->
+<!--     <div class="item">-->
+<!--      &lt;!&ndash; Your image here &ndash;&gt;-->
+<!--      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>-->
+<!--      <h2 class="subtitle has-text-centered">-->
+<!--        Fourth image description.-->
+<!--      </h2>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</section>-->
+<!--&lt;!&ndash; End image carousel &ndash;&gt;-->
+
+
+
+
+<!--&lt;!&ndash; Youtube video &ndash;&gt;-->
+<!--<section class="hero is-small is-light">-->
+<!--  <div class="hero-body">-->
+<!--    <div class="container">-->
+<!--      &lt;!&ndash; Paper video. &ndash;&gt;-->
+<!--      <h2 class="title is-3">Video Presentation</h2>-->
+<!--      <div class="columns is-centered has-text-centered">-->
+<!--        <div class="column is-four-fifths">-->
+
+<!--          <div class="publication-video">-->
+<!--            &lt;!&ndash; Youtube embed code here &ndash;&gt;-->
+<!--            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</section>-->
+<!--&lt;!&ndash; End youtube video &ndash;&gt;-->
+
+
+<!--&lt;!&ndash; Video carousel &ndash;&gt;-->
+<!--<section class="hero is-small">-->
+<!--  <div class="hero-body">-->
+<!--    <div class="container">-->
+<!--      <h2 class="title is-3">Another Carousel</h2>-->
+<!--      <div id="results-carousel" class="carousel results-carousel">-->
+<!--        <div class="item item-video1">-->
+<!--          <video poster="" id="video1" autoplay controls muted loop height="100%">-->
+<!--            &lt;!&ndash; Your video file here &ndash;&gt;-->
+<!--            <source src="static/videos/carousel1.mp4"-->
+<!--            type="video/mp4">-->
+<!--          </video>-->
+<!--        </div>-->
+<!--        <div class="item item-video2">-->
+<!--          <video poster="" id="video2" autoplay controls muted loop height="100%">-->
+<!--            &lt;!&ndash; Your video file here &ndash;&gt;-->
+<!--            <source src="static/videos/carousel2.mp4"-->
+<!--            type="video/mp4">-->
+<!--          </video>-->
+<!--        </div>-->
+<!--        <div class="item item-video3">-->
+<!--          <video poster="" id="video3" autoplay controls muted loop height="100%">\-->
+<!--            &lt;!&ndash; Your video file here &ndash;&gt;-->
+<!--            <source src="static/videos/carousel3.mp4"-->
+<!--            type="video/mp4">-->
+<!--          </video>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</section>-->
+<!--&lt;!&ndash; End video carousel &ndash;&gt;-->
+
+
+<!-- Paper poster -->
+<section class="hero is-small is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">MIMIC Poster</h2>
+      <iframe src="static/pdfs/research-47-poster.pdf" width="100%" height="1200">
+          </iframe>
+      </div>
+    </div>
+  </section>
+<!--End paper poster -->
+
+<!-- Paper poster -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Planner Prompts</h2>
+      <iframe src="static/pdfs/Prompts_of_the_Planner_for_MIMIC.pdf" width="100%" height="1000">
+      </iframe>
+    </div>
+  </div>
+</section>
+<!--End paper poster -->
+
+<!-- Paper poster -->
+<section class="hero is-small is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Parameters for Shattered Pixel Dungeon</h2>
+      <iframe  src="static/pdfs/Parameters_for_Shattered_Pixel_Dungeon.pdf" width="100%" height="1000">
+      </iframe>
+    </div>
+  </div>
+</section>
+<!--End paper poster -->
+
+<!-- Paper poster -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Parameters for Dungeon Adventures</h2>
+      <iframe  src="static/pdfs/Parameters_for_Dungeon_Adventures.pdf" width="100%" height="1000">
+      </iframe>
+    </div>
+  </div>
+</section>
+<!--End paper poster -->
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX </h2>
+      <p>To be published in the Proceedings of the 40th IEEE/ACM International Conference on Automated Software Engineering, ASE'25</p>
+      <pre><code>@inproceedings{MIMIC_YIFEI_ASE_2025,
+        author = {Chen, Yifei and Habchi, Sarra and Wei, Lili},
+        title = {MIMIC: Integrating Diverse Personality Traits for Better Game Testing Using Large Language Model},
+        year = {2025},
+        isbn = {},
+        publisher = {},
+        address = {},
+        url = {https://doi.org/10.48550/arXiv.2510.01635},
+        doi = {arXiv:2510.01635},
+        abstract = {Modern video games pose significant challenges for traditional automated testing algorithms, yet intensive testing is crucial to ensure game quality. To address these challenges, researchers designed gaming agents using Reinforcement Learning, Imitation Learning, or Large Language Models. However, these agents often neglect the diverse strategies employed by human players due to their different personalities, resulting in repetitive solutions in similar situations. Without mimicking varied gaming strategies, these agents struggle to trigger diverse in-game interactions or uncover edge cases. In this paper, we present MIMIC, a novel framework that integrates diverse personality traits into gaming agents, enabling them to adopt different gaming strategies for similar situations. By mimicking different playstyles, MIMIC can achieve higher test coverage and richer in-game interactions across different games. It also outperforms state-of-the-art agents in Minecraft by achieving a higher task completion rate and providing more diverse solutions. These results highlight MIMIC's significant potential for effective game testing.},
+        booktitle = {Proceedings of the 40th IEEE/ACM International Conference on Automated Software Engineering},
+        pages = {},
+        numpages = {13},
+        location = {Seoul, South Korea},
+        series = {ASE '25}
+}</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <div class="map-container">
+            <script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?cl=e7e1ef&w=a&t=n&d=L2pJCxVZrHCe1prybMwpAbEok3KQy8n9PJlGluibxdQ&cmo=c994c7&cmn=dd1c77&co=0b4975&ct=cdd4d9"></script>
+          </div>
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
