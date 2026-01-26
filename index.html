@@ -267,13 +267,10 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Modern video games are complex, highly non-deterministic systems that remain difficult to test automatically at scale. Prior work has shown that personality-driven Large Language Model (LLM) agents can substantially improve behavioural diversity and test coverage in games, but existing implementations have largely remained research prototypes, limiting their practical use.
+            Modern video games are complex, non-deterministic systems that are difficult to test automatically at scale. Although prior work shows that personality-driven Large Language Model (LLM) agents can improve behavioural diversity and test coverage, existing tools largely remain research prototypes and lack cross-game reusability.
           </p>
           <p>
-            This tool paper presents MIMIC-Py, a Python-based automated game testing tool that builds on our prior personality-driven LLM agent framework. MIMIC-Py exposes personality traits as configurable inputs and integrates modular planning, execution, and memory components to generate diverse and repeatable interaction traces. The tool supports multiple interaction mechanisms, enabling agents to interact with games through direct APIs or generated code when testing interfaces are incomplete. We explain the design of MIMIC-Py as a reusable testing tool and how it can be deployed to new game environments with minimal effort.
-          </p>
-          <p>
-            A demo video illustrating how to run MIMIC-Py and deploy it to a new game is available at: \todo{demo video link here}
+            This tool paper presents MIMIC-Py, a Python-based automated game-testing tool that transforms personality-driven LLM agents into a reusable and extensible framework. MIMIC-Py exposes personality traits as configurable inputs and adopts a modular architecture that decouples planning, execution, and memory from game-specific logic. It supports multiple interaction mechanisms, enabling agents to interact with games via exposed APIs or synthesized code. We describe the design of MIMIC-Py and show how it enables deployment to new game environments with minimal engineering effort, bridging the gap between research prototypes and practical automated game testing.
           </p>
         </div>
       </div>
