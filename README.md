@@ -1,7 +1,7 @@
 # MIMIC-Py Webpage Repository
 This is an academic paper project page for:
 
-**MIMIC-Py: A Tool for Personality-Driven Automated Game Testing with Large Language Models**
+**MIMIC-Py: An Extensible Tool for Personality-Driven Automated Game Testing with Large Language Models**
 
 The research paper for this tool is accepted by ASE 2025 as:
 **MIMIC: Generative Agents Mimicking Diverse Personality Traits for Game
